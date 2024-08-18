@@ -2,10 +2,16 @@ name = input("what is your name")
 print("My name is",name)
 print('####################################')
 
-a = input("num1")
-b = input("num2")
-summation  = int(a) + int(b)
+a = int(input("num1"))
+b = int(input("num2"))
+summation  = a + b
+sub = a - b
+multiplication = a * b
+div = a / b
 print(summation)
+print(sub)
+print(multiplication)
+print(div)
 print('####################################')
 
 name = input("what is your name")
