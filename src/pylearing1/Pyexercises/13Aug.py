@@ -20,7 +20,7 @@ print("2 * 8", '=', 2 * 8)
 print("2 * 9", '=', 2 * 9)
 print("2 * 10", '=', 2 * 10)
 # table using str format
-table = int(input())
+table = int(input("Table of "))
 print(f"{table}*1={table*1}")
 print(f"{table}*2={table*2}")
 print(f"{table}*3={table*3}")
@@ -39,12 +39,12 @@ summation  = a + b
 sub = a - b
 multiplication = a * b
 div = a / b
-print(summation)
-print(sub)
-print(multiplication)
-print(div)
-print(max(a,b))
-print(pow(a,b))
+print(f"{summation:.2f}")
+print(f"{sub:.2f}")
+print(f"{multiplication:.2f}")
+print(f"{div:.2f}")
+print(f"{max(a,b):.2f}")
+print(f"{pow(a,b):.2f}")
 print('####################################')
 
 '''
