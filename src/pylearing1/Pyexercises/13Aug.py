@@ -62,7 +62,7 @@ print('####################################')
 pi = 3.14
 r = float(input("Radius" ))
 area = pi * pow(r,2)
-print(area)
+print(f"{area:.2f}")
 print('####################################')
 r = float(input("Radius" ))
 print(math.pi)
