@@ -1,0 +1,234 @@
+Index: src/pylearing1/Pyexercises/L2.py
+===================================================================
+diff --git a/src/pylearing1/Pyexercises/L2.py b/src/pylearing1/Pyexercises/L2.py
+deleted file mode 100644
+--- a/src/pylearing1/Pyexercises/L2.py	(revision 4d8ba28cfceba5efb05b81715bde35210ce014b0)
++++ /dev/null	(revision 4d8ba28cfceba5efb05b81715bde35210ce014b0)
+@@ -1,36 +0,0 @@
+-import math
+-
+-# # area of circle with radius 2
+-r = float(input("Radius" ))
+-print(math.pi)
+-area = math.pi*pow(r,2)
+-print(area)
+-# ####################################
+-pi = 3.14
+-r = float(input("Radius" ))
+-area = pi * pow(r,2)
+-print(area)
+-# ####################################
+-pi = 3.14
+-r = float(input("Radius" ))
+-area = pi * (r**2)
+-print(area)
+-
+-# square and cube root of a number
+-number = float(input("number" ))
+-sq = number**2
+-sqroot = math.sqrt (number)
+-cube = math.pow(number,3)
+-print(sq)
+-print(sqroot)
+-print(cube)
+-
+-## take 2 no.s print whether a is > or < or == to b
+-a = 5
+-b = 2
+-g = a > b
+-l = a < b
+-e = a == b
+-print("a greater than b", g)
+-print("a less than b", l)
+-print("a is equal to b", e)
+\ No newline at end of file
+Index: src/pylearing1/Pyexercises/L1.py
+===================================================================
+diff --git a/src/pylearing1/Pyexercises/L1.py b/src/pylearing1/Pyexercises/L1.py
+deleted file mode 100644
+--- a/src/pylearing1/Pyexercises/L1.py	(revision 4d8ba28cfceba5efb05b81715bde35210ce014b0)
++++ /dev/null	(revision 4d8ba28cfceba5efb05b81715bde35210ce014b0)
+@@ -1,37 +0,0 @@
+-name = input("what is your name")
+-print("My name is",name)
+-print('####################################')
+-
+-a = int(input("num1"))
+-b = int(input("num2"))
+-summation  = a + b
+-sub = a - b
+-multiplication = a * b
+-div = a / b
+-print(summation)
+-print(sub)
+-print(multiplication)
+-print(div)
+-print('####################################')
+-
+-name = input("what is your name")
+-age = input("what is your age")
+-roll_num = input("what is your num")
+-print(name)
+-print(age)
+-print(roll_num)
+-print('####################################')
+-
+-print("2 * 1", '=', 2 * 1)
+-print("2 * 2", '=', 2 * 2)
+-print("2 * 3", '=', 2 * 3)
+-print("2 * 4", '=', 2 * 4)
+-print("2 * 5", '=', 2 * 5)
+-print("2 * 6", '=', 2 * 6)
+-print("2 * 7", '=', 2 * 7)
+-print("2 * 8", '=', 2 * 8)
+-print("2 * 9", '=', 2 * 9)
+-print("2 * 10", '=', 2 * 10)
+-
+-
+-
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0ba5ade6-cd53-48fb-95a9-8b8c43a51791\" name=\"Changes\" comment=\"Adding new directory of exercises\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pylearing1/Pyexercises/L1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pylearing1/Pyexercises/L1.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Suryanadh91&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Suryanadh91/PyATB4Xlearning.git&quot;,\r\n    &quot;accountId&quot;: &quot;ab0efcea-6ede-4569-9dd5-ec8799e8ab53&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2kMCCfJQSRhYF04iPe4Wnw2W0ID\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.L4.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\srava\\PycharmProjects\\Pylearning\\src\\pylearing1\\Py3xexercises\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"L4\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PyATB4X\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src/pylearing1\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\srava\\PycharmProjects\\Pylearning\\src\\pylearing1\\Py3xexercises\\L4.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.L4\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0ba5ade6-cd53-48fb-95a9-8b8c43a51791\" name=\"Changes\" comment=\"\" />\r\n      <created>1723083933208</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1723083933208</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Adding L4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723084936662</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723084936662</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Adding L4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723087298047</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723087298047</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Adding new directory of exercises\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723254398635</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723254398635</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Adding new directory of exercises\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723860861169</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723860861169</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Adding new directory of exercises\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723962543986</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723962543986</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Adding new directory of exercises\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723962739242</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723962739242</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Adding L4\" />\r\n    <MESSAGE value=\"Adding new directory of exercises\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Adding new directory of exercises\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4d8ba28cfceba5efb05b81715bde35210ce014b0)
++++ b/.idea/workspace.xml	(date 1724050361855)
+@@ -4,9 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0ba5ade6-cd53-48fb-95a9-8b8c43a51791" name="Changes" comment="Adding new directory of exercises">
++    <list default="true" id="0ba5ade6-cd53-48fb-95a9-8b8c43a51791" name="Changes" comment="updating exercise">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L1.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L1.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L2.py" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -48,6 +49,9 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Python.13Aug.executor": "Run",
++    "Python.17Aug.executor": "Run",
++    "Python.L1.executor": "Run",
+     "Python.L4.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "master",
+@@ -59,7 +63,51 @@
+       <recent name="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Py3xexercises" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Python.13Aug">
++    <configuration name="13Aug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="PyATB4X" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\13Aug.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="17Aug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="PyATB4X" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/17Aug.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <configuration name="L4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="PyATB4X" />
+       <option name="ENV_FILES" value="" />
+@@ -84,6 +132,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.13Aug" />
++        <item itemvalue="Python.17Aug" />
+         <item itemvalue="Python.L4" />
+       </list>
+     </recent_temporary>
+@@ -152,7 +202,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1723962739242</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="Adding new directory of exercises">
++      <option name="closed" value="true" />
++      <created>1723964097837</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1723964097837</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Adding new directory of exercises">
++      <option name="closed" value="true" />
++      <created>1723964155151</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1723964155151</updated>
++    </task>
++    <task id="LOCAL-00009" summary="updating exercise">
++      <option name="closed" value="true" />
++      <created>1724049592288</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1724049592288</updated>
++    </task>
++    <task id="LOCAL-00010" summary="updating exercise">
++      <option name="closed" value="true" />
++      <created>1724049615220</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1724049615220</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -169,6 +251,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Adding L4" />
+     <MESSAGE value="Adding new directory of exercises" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Adding new directory of exercises" />
++    <MESSAGE value="updating exercise" />
++    <option name="LAST_COMMIT_MESSAGE" value="updating exercise" />
+   </component>
+ </project>
+\ No newline at end of file
