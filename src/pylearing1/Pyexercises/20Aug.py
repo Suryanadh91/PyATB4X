@@ -2,9 +2,11 @@
 num1 = int(input("Enter num 1"))
 num2 = int(input("Enter num 2"))
 num3 = int(input("Enter num 3"))
+
 # 1 type of logic using max function
 max_num = max(num1,num2,num3)
 print(max_num)
+
 # with if else
 if num1 > num2 and num1 > num3:
     print("Max  is",num1)

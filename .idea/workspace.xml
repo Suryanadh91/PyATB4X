@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba5ade6-cd53-48fb-95a9-8b8c43a51791" name="Changes" comment="updating exercise">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724130538114</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updating exercise">
+      <option name="closed" value="true" />
+      <created>1724220905270</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724220905270</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
