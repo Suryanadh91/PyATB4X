@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba5ade6-cd53-48fb-95a9-8b8c43a51791" name="Changes" comment="updating exercise">
-      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/20Aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/20Aug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/L4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Py3xexercises" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.L4 (1)">
     <configuration name="13Aug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyATB4X" />
       <option name="ENV_FILES" value="" />
@@ -330,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724223512545</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updating exercise">
+      <option name="closed" value="true" />
+      <created>1724224072039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724224072039</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
