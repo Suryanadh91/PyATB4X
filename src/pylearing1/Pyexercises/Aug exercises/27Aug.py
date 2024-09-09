@@ -29,3 +29,9 @@ elif score >=0 and score <=59:
     print("F grade")
 else:
     print("Invalid output")
+
+
+# convert a+b+c to lambda
+
+add = lambda a,b,c:a+b+c
+print(add(1,2,3))

@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ba5ade6-cd53-48fb-95a9-8b8c43a51791" name="Changes" comment="updating exercise">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/Aug 31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pylearing1/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/27Aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/13Aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/13Aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/17Aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/17Aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/20Aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/20Aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/24Aug.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/24Aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/27Aug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +63,7 @@
     "Python.20Aug.executor": "Run",
     "Python.24Aug.executor": "Run",
     "Python.27Aug (1).executor": "Run",
+    "Python.Aug 31.executor": "Run",
     "Python.L1.executor": "Run",
     "Python.L4 (1).executor": "Run",
     "Python.L4.executor": "Run",
@@ -64,32 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\Aug exercises" />
       <recent name="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Py3xexercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.27Aug (1)">
-    <configuration name="13Aug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyATB4X" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/13Aug.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Aug 31">
     <configuration name="13Aug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyATB4X" />
       <option name="ENV_FILES" value="" />
@@ -103,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\13Aug.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\Aug exercises\13Aug.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,29 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/24Aug.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="27Aug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyATB4X" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/27Aug.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\Aug exercises\24Aug.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +136,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\27Aug.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\Aug exercises\27Aug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="27Aug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyATB4X" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\srava\PycharmProjects\Pylearning\src\pylearing1\Pyexercises\Aug exercises\27Aug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Aug 31" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyATB4X" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pylearing1/Pyexercises/Aug exercises/Aug 31.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aug 31" />
         <item itemvalue="Python.27Aug (1)" />
         <item itemvalue="Python.24Aug" />
         <item itemvalue="Python.27Aug" />
         <item itemvalue="Python.13Aug (1)" />
-        <item itemvalue="Python.13Aug" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725334880583</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updating exercise">
+      <option name="closed" value="true" />
+      <created>1725428828958</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725428828958</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
